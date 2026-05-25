@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,12 +14,7 @@ body {
   background-size: cover;
   background-color: #fff;
   font-family: Arial, sans-serif;
-  overflow: hidden;
-  overscroll-behavior: none;
-  -webkit-user-select: none;
-  user-select: none;
-  position: fixed;
-  inset: 0;
+  overflow-x: hidden;
 }
 
 .content {
