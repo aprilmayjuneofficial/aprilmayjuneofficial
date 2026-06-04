@@ -49,11 +49,11 @@ body::before {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 35px;
 }
 
 .nav {
-  font-size: 11pt;
+  font-size: 10pt;
   line-height: 1;
   color: #13196e;
   text-decoration: none;
@@ -76,6 +76,7 @@ body::before {
   .content {
     width: 92%;
     padding: 16px;
+    margin-top: -200px;
   }
 
   .logo {
